@@ -1,0 +1,61 @@
+.cuadro {
+    border: 2px solid #3748aa
+}
+
+.boton {
+    background-color: #3c50be
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c50be;
+    flex-direction: column;
+    background: -webkit-linear-gradient(-135deg, #4158d0, #1f214b);
+    background: -o-linear-gradient(-135deg, #4158d0, #1f214b);
+    background: -moz-linear-gradient(-135deg, #4158d0, #1f214b);
+    background: linear-gradient(-135deg, #4158d0, #1f214b);
+}
+
+.part1 {
+    width: 80%;
+}
+
+.centered,
+table {
+    background: white;
+}
+
+.centered {
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.table-cont {
+    overflow: scroll;
+    width: 80%;
+}
+
+.form-control {
+    display: block;
+    width: 80% !important
+}
+
+.w-10 {
+    width: 50% !important
+}
+
+.input-group {
+    width: 80% !important;
+}
+
+.red {
+    color: #ca050f;
+    width: 100%
+}
