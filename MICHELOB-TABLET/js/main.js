@@ -20,7 +20,7 @@
 
         if (check !== false) {
             e.preventDefault();
-            location.assign("../index.html");
+            location.assign("../../index.html");
         }
 
         return check;
