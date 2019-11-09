@@ -20,7 +20,7 @@
 
         if (check !== false) {
             e.preventDefault();
-            location.assign("https://script.google.com/macros/s/AKfycbzyOqMSpoJUdZkYEGokbVKzVM3PHDN-IbrcXbjF-vbcDWIB_Nk/exec");
+            location.assign("https://script.google.com/macros/s/AKfycbwS7CPpyvd79b-59ojY4c0rOnRDlzOWlxRVi57S/exec");
         }
 
         return check;
