@@ -20,7 +20,7 @@
 
         if (check !== false) {
             e.preventDefault();
-            location.assign("../../index.html");
+            location.assign("https://script.google.com/macros/s/AKfycbzyOqMSpoJUdZkYEGokbVKzVM3PHDN-IbrcXbjF-vbcDWIB_Nk/exec");
         }
 
         return check;
@@ -35,12 +35,12 @@
 
     function validate(input) {
         if ($(input).attr('name') == 'user') {
-            if ($(input).val().trim().match(/^UserMICHELOB|^michelob4|^MICHELOB|^MICHEACTIV/) == null) {
+            if ($(input).val().trim().match(/^MICHELOB/) == null) {
                 return false;
             }
         } else {
             if ($(input).attr('name') == 'pass') {
-                if ($(input).val().trim().match(/^Hola123/) == null) {
+                if ($(input).val().trim().match(/^123456/) == null) {
                     return false;
                 }
             }
